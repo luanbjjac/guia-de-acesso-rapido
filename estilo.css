@@ -1,0 +1,78 @@
+body {
+    background: rgb(82, 82, 241);
+    background-color: aqua;
+    font: normal 15pt Arial;
+    }
+    
+    header {
+    color: rebeccapurple;
+    text-align: center;
+    display: flex;
+    }
+    
+    
+    
+    h1 {
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    }
+    
+    button {
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 20rem;
+    display: flex;
+    }
+    
+    .brasao {
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .logo {
+    width: 300px;
+    border: none;
+    position: absolute;
+    bottom: 10rem;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    h2 {
+    color: blueviolet;
+    font-style: italic;
+    font-size: 30px;
+    }
+    
+    #ponto {
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 50px 20px 10px 0;
+    max-width: 186px;
+    font-size: 38px;
+    }
+
+    main {
+        margin-bottom: 100px; /* Adiciona uma margem inferior para o footer */
+    }
+    
+    footer {
+        margin: -15px -20px -2px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px; /* Define uma altura para o footer */
+        text-align: right;
+        line-height: 100px; /* Define uma linha vertical para centralizar o texto */
+    }
+    .brasao:hover {
+        transform: scale(1.2);
+        
+      }
+
+      .logo:hover{
+        transform: scale(1,1.2);
+        
+      }
